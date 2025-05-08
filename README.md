@@ -25,10 +25,10 @@ In this example we will learn how to build, deploy a Retrieval augmented generat
 
 **Installation of Ollama**
    1. $ curl -fsSL https://ollama.com/install.sh | sh
-   2. $ ollama run granite3.3:latest --keepalive 600m
+   2. $ ollama run llama3.2:3b --keepalive 600m
    3. $ ollama ps
-   4. NAME                ID          SIZE      PROCESSOR    UNTIL             
-   5. granite3.3:latest    fd429f23b909    7.3 GB    100% CPU     10 hours from now 
+   4. NAME               ID          SIZE      PROCESSOR    UNTIL             
+   5. llama3.2:3b    fd429f23b909    7.3 GB    100% CPU     10 hours from now 
 
 **Installation of Llama Stack And Llama Stack client**
 
@@ -51,11 +51,13 @@ In this example we will learn how to build, deploy a Retrieval augmented generat
 
 **To run demo example refer following**
 
-1. (rag-demo) $ python rag-tool-demo.py 
-2. rag_tool> Ingesting document: https://llama-stack.readthedocs.io/en/latest/index.html
+1. $ source myenv/bin/activate
+2. $ python rag-tool-demo.py 
+3. $ Ingesting document: https://llama-stack.readthedocs.io/en/latest/index.html
 
 **Inputs:**
    1.  [UserMessage(content='What does llama stack provides?', role='user', context=None)]
+      
 **Output:**
     1. 'Llama Stack is a unified API layer for Inference, RAG, Agents, Tools, Safety, Evals, and Telemetry. It provides a plugin architecture to support various environments like local development, on-premises, cloud, and mobile. Llama Stack also offers prepackaged verified distributions which can be used quickly and reliably in any environment. The tool provides multiple developer interfaces like CLI and SDKs for Python, Node, iOS, and Android, as well as standalone applications to build production-grade AI applications.'
 
