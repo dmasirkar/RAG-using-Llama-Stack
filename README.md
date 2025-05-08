@@ -51,13 +51,14 @@ $ uv pip install llama-stack
 
 **To run demo example refer following**
 
-(rag-demo) [instruct@bastion session3]$ python rag-tool-demo.py 
+(rag-demo) $ python rag-tool-demo.py 
 rag_tool> Ingesting document: https://llama-stack.readthedocs.io/en/latest/index.html
-Inputs:
-[UserMessage(content='What does llama stack provides?', role='user', context=None)]
-Output:
-'Llama Stack is a unified API layer for Inference, RAG, Agents, Tools, Safety, Evals, and Telemetry. It provides a plugin architecture to support various environments like local development, on-premises, cloud, and mobile. Llama Stack also offers prepackaged verified distributions which can be used quickly and reliably in any environment. The tool provides multiple developer interfaces like CLI and SDKs for Python, Node, iOS, and Android, as well as standalone applications to build production-grade AI applications.'
-(rag-demo) [instruct@bastion session3]$ 
+
+**Inputs:**
+    [UserMessage(content='What does llama stack provides?', role='user', context=None)]
+**Output:**
+    'Llama Stack is a unified API layer for Inference, RAG, Agents, Tools, Safety, Evals, and Telemetry. It provides a plugin architecture to support various environments like local development, on-premises, cloud, and mobile. Llama Stack also offers prepackaged verified distributions which can be used quickly and reliably in any environment. The tool provides multiple developer interfaces like CLI and SDKs for Python, Node, iOS, and Android, as well as standalone applications to build production-grade AI applications.'
+
 
  
 **References**
